@@ -34,7 +34,7 @@ variable "funcAppName" {
 # App Insight details
 variable "insight_set" {
     type = string
-    default = "Instrum="
+    default = "InstrumentationKey="
     description = "Application insight connection string"
 }
 
